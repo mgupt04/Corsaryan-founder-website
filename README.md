@@ -10,7 +10,7 @@ Run `python3 -m http.server 8877` in this directory, then open `http://localhost
 
 - `index.html` contains the content and page structure.
 - `styles.css` contains the responsive design and motion rules.
-- `main.js` handles the mobile navigation and optional scroll reveals.
+- `main.js` handles the mobile navigation, scroll reveals and progress, and the interactive background constellations. Motion pauses outside the viewport and respects reduced-motion settings.
 - `assets/portraits/*.webp` are optimized versions of the three supplied founder PNGs. Their identities and appearance were not altered.
 - `assets/corsaryn-mark.svg` and `assets/favicon.svg` reproduce the official double-C vector paths from [`AndreiBautista/Corsaryn/src/components/brand/Logo.tsx`](https://github.com/AndreiBautista/Corsaryn/blob/main/src/components/brand/Logo.tsx). Colors follow that repository's `src/index.css` brand tokens.
 - `assets/og-image.png` is copied from [`AndreiBautista/Corsaryn/public/og-image.png`](https://github.com/AndreiBautista/Corsaryn/blob/main/public/og-image.png).
